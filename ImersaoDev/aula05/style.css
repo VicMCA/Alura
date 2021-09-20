@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+  .page-logo {
+    width: 200px;
+  }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  #listaFilmes {
+    margin: 0 auto;
+  }
+  .film-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    width: 160px;
+    padding: 0px;
+  }
+
+  .film-poster {
+    position: static;
+    top: 0px;
+    left: 0px;
+    max-height: 200px;
+    margin-top: 10px;
+  }
+  
+  .filme-nome {
+    margin-top: 0px;
+    position: relative;
+    bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;    
+  }
+
+  .film-container .remove-button {
+    position: absolute;
+    top: 0%;
+    right: 15%;
+    padding: 5px 15px 5 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .2s ease;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.0);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .film-container .remove-button:hover {
+  background-color: rgba(200, 0, 0, 0.8);
+  transition: .2s ease;
+  color: #fff;
+  }

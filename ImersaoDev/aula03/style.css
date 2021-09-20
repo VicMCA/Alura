@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 800px;
+  background-image: url("https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
+  background-color: #015;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.gradients {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 10, 50, 1),
+    rgba(0, 10, 50, 0),
+    rgba(0, 10, 50, 0),
+    rgba(0, 10, 50, 0),
+    rgba(0, 10, 50, 1)
+  );
+  padding: 1px;
+  min-height: 820px;
+  min-width: 1%;
+  margin: -10px -20px;
+  position: center top;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 0px 20px 20px;
+  padding: 50px 0 30px 0;
+  max-width: 500px;
+  margin: -10px auto auto auto;
+  text-align: center;
+  max-height: 400px;
+  position: center top;
+}
+
+.page-title {
+  font-family: "Architects Daughter";
+  font-weight: 300;
+  font-stretch: extra-expanded;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+
+.imersao-dev-logo {
+  width: 140px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}

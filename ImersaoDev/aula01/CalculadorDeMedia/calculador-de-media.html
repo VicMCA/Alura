@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <br>
+        <div id="formulario-nota" name="formulario-nota" class="notas-bimestrais">
+            <br>
+            <label for="aluno-nome">Quem é o aluno?</label>
+            <br>
+            <input id="aluno-nome" class="input-aluno" type="text" placeholder="Nome do Aluno" autofocus required>
+            <br>
+            Nota de cada bimestre:
+            <br>
+            <input id="nota1" class="input-nota" type="number" placeholder="1º" max="10" min="0" required>
+            <input id="nota2" class="input-nota" type="number" placeholder="2º" max="10" min="0" required>
+            <input id="nota3" class="input-nota" type="number" placeholder="3º" max="10" min="0" required>
+            <input id="nota4" class="input-nota" type="number" placeholder="4º" max="10" min="0" required>
+            <br>
+            <button class="submit-nota" onclick="exibirResultado()">Enviar</button>
+            <br>
+            <p id="resultado-nota" name="resultado-nota"></p>
+            <br>
+            <img src="https://freesvg.org/img/1288445526.png" class="kitty" alt="">
+        </div>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+
+      <script src="script.js"></script>
+</body>
+</html>
