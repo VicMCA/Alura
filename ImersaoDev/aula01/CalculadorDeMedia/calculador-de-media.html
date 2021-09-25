@@ -5,7 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Imersão Dev Alura - Aula 01</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
+
+        body {
+            font-family: 'Roboto',sans-serif;
+            min-height: 400px;
+            background-image: 
+                url('https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1504&q=80');
+            background-color: #202020;
+            background-attachment: scroll;
+            background-position: center 30%;
+            background-repeat: no-repeat;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            height: 40vh;
+        }
+        .kitty {
+            width: 150px;
+            margin: 10px;
+        }
+        .page-title {
+            font-family: 'Roboto',sans-serif;
+            font-weight: 400;
+            padding-top: 0%;
+            color:#6ab6ab;
+            margin: 0 0 5px;
+        }  
+        .page-subtitle {
+            font-family: 'Roboto mono',monospace;
+            color:#858585;
+            margin-top: 5px;
+        }
+        .notas-bimestrais {
+            font-family: 'Roboto',sans-serif;
+            font-weight: 400;
+            color:#416e76;
+            font-size: 11pt;
+            margin: 5px;
+        }
+        .input-nota {
+            text-align: center;
+            max-width: 50px;
+            margin: 5px;
+        }
+        .input-aluno {
+            text-align: center;
+            max-width: 300px;
+            margin: 5px;
+        }
+        .submit-nota {
+            margin: 5px;
+        }
+        .page-logo {
+            width: 200px;
+            background-color: #505050;
+            border-style: solid;
+            border-width: 10px;
+            border-color: #505050;
+            border-radius:10px;
+        }  
+        .alura-logo {
+            width: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .footer-container {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 0px 20px 0px 20px;
+            border-radius: 70px 0 0 0;
+        }
+        .profile {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .profile-picture {
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #aaa;
+            padding: 1%;
+            size: inherit;
+            max-height: 80px;
+        }
+        .bio-text {
+            margin-left: 20px;
+            text-align: left;
+            font-family: 'Fira Code', 'Courier New', Courier, monospace;
+            color: #999;
+            font-weight: 200;
+            text-decoration: none;
+        }
+        .bio-text h1 {
+            color: #3ea;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .bio-text h3 {
+            margin-top: -10px;
+            color: #ddd;
+            font-weight: 200;
+            font-size: 14px;
+        }
+        .bio-text h5 {
+            margin-top: -10px;
+            color: #999;
+            font-size: 14px;
+            font-weight: 200;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -36,6 +152,7 @@
             <img src="https://freesvg.org/img/1288445526.png" class="kitty" alt="">
         </div>
       </div>
+      
       <a href="https://alura.com.br/" target="_blank">
       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
       </a>

@@ -3,25 +3,6 @@ const listaFilmesImagens = [];
 const listaFilmesNomes = [];
 const filmesAdicionados = [];
 
-// function adicionarFilme() {
-//     let filmeImagem = document.getElementById("filme").value;
-//     let filmeNome = document.getElementById("nome").value;
-  
-//     if ( filmeImagem.endsWith(".jpg") || filmeImagem.endsWith(".png") || filmeImagem.endsWith(".jpeg") ) {
-//         if ( listaFilmesImagens.includes(filmeImagem) ) {
-//             alert("Esta imagem já foi adicionada ao banco de dados.")
-//         } else if ( listaFilmesNomes.includes(filmeNome) ) {
-//             alert("Este filme já foi adicionado ao banco de dados.")
-//         } else {
-//             adicionarFilmeLista(filmeImagem, filmeNome);
-//             listarNaTela();
-//         }
-//     } else {
-//         alert("Formato ou endereço de imagem inválido.");
-//     }      
-//     resetarInputs();
-// }
-
 function adicionarFilme() {
     let filmeImagem = document.getElementById("filme").value;
     let filmeNome = document.getElementById("nome").value;

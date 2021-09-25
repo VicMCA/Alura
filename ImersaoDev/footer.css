@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
+
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0px 20px 0px 20px;
+    border-radius: 60px 0 0 0;
+}
+.profile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aaa;
+    padding: 1%;
+    size: inherit;
+    max-height: 80px;
+}
+.bio-text {
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    color: #999;
+    font-weight: 200;
+    text-decoration: none;
+}
+.bio-text h1 {
+    color: #3ea;
+    font-weight: 500;
+    font-size: 16px;
+}
+.bio-text h3 {
+    margin-top: -10px;
+    color: #ddd;
+    font-weight: 200;
+    font-size: 14px;
+}
+.bio-text h5 {
+    margin-top: -10px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 200;
+}

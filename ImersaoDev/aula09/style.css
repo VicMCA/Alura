@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
+
+body {
+    /* background: linear-gradient(180deg, #111 10%, rgb(87, 86, 86) 60%) no-repeat fixed; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Night_sky_at_Kaudulla_National_Park_DSC_1247.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: cover;
+    background-color: #113;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-container {
+    text-align: left;
+    background-color: rgba(2, 2, 2, 0.9);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 5%;
+    box-shadow: 0px 5px 10px 0px #000;
+    /* box-shadow: 0px 0px 10px 0px #333 inset; */
+}
+.title-bar {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    background-color: #245;
+    color: #ddd;
+    border-radius: 3px 3px 0 0;
+    margin: -18px -17px 0 -17px;
+    padding: 0px 10px 0px 10px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    box-shadow: 0px 3px 5px 0px #245;
+}
+.title-container {
+    overflow: auto;
+    width: 100%;
+    display: flex;
+}
+#app-name {
+    margin: auto auto auto 5px;
+}
+#app-buttons {
+    margin: auto 5px auto auto;
+}
+.header {
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile-picture {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aaa;
+    padding: 1%;
+    max-height: 160px;
+    /* box-shadow: 0px 0px 10px 0px #3ea; */
+}
+.bio-text {
+    margin-left: 30px;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    color: #999;
+    font-weight: 200;
+}
+.bio-text h1 {
+    color: #3ea;
+    font-weight: 200;
+    font-size: 32px;
+}
+.bio-text h3 {
+    color: #ddd;
+    font-weight: 200;
+}
+.bio-text h5 {
+    margin-top: -10px;
+    color: #999;
+    font-weight: 200;
+}
+.theme button {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #222;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.theme button:hover {
+    background-color: #444;
+    transition: 0.2s ease;
+}
+.theme button:active {
+    background-color: #111;
+    transition: 0.02s ease;
+}
+#command {
+    color: #3ea;
+    animation: blink 1s ease infinite;
+}
+@keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #000;
+    border-radius: 10px;
+    margin: auto auto auto auto;
+    padding-right: 40px;
+}
+.project-list {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    list-style: none;
+    list-style-type: none;
+}
+.list-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #3ea;
+}
+.list-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.link a:link {
+    color: #aaa;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.link a:visited {
+    color: #555;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.link a:hover {
+    color: #2a6;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.link a:active {
+    color: #3ea;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+/* LIGHT THEME*/
+.light {
+    background-color: #cbb;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Stormy_sunset_clouds_over_Rome%2C_Italy.jpg/2560px-Stormy_sunset_clouds_over_Rome%2C_Italy.jpg");
+}
+.light .header-container {
+    background-color: rgba(220, 210, 210, 0.7);
+    box-shadow: 0px 5px 10px 0px #446;
+}
+.light .title-bar {
+    background-color: #88a;
+    box-shadow: 0px 3px 5px 0px #88a;
+    color: #345;
+}
+.light .bio-text {
+    color: #444;
+    font-weight: 300;
+}
+.light .bio-text h1 {
+    color: #357;
+    font-weight: 400;
+}
+.light .bio-text h3 {
+    color: #222;
+    font-weight: 400;
+}
+.light .bio-text h5 {
+    color: #444;
+    font-weight: 600;
+}
+.light .profile-picture {
+    border-color: #666;
+}
+.light .theme button {
+    background-color: #999;
+    color: #333;
+}
+.light .theme button:hover {
+    background-color: #bbb;
+    transition: 0.2s ease;
+}
+.light .theme button:active {
+    background-color: #777;
+    transition: 0.02s ease;
+}
+.light .projects {
+    background-color: #bbaeae;
+    box-shadow: 0px 3px 10px 0px #999 inset;
+}
+.light #command {
+    color: #357;
+    animation: blink 1s ease infinite;
+}
+.light .list-title {
+    color: #357;
+}
+.light .list-item {
+    color: #333;
+}
